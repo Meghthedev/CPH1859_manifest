@@ -8,7 +8,7 @@ Required patches for IMS: https://gerrit.pixelexperience.org/q/topic:%22mediatek
 ```bash
 
 # Grab Local Manifest
-curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/realme-mt6771-devs/local_manifest/main/twelve.xml --create-dirs
+curl -o .repo/local_manifests/local_manifests.xml https://raw.githubusercontent.com/realme-mt6771-devs/local_manifest/13/13.xml --create-dirs
 
 # Sync
 repo sync -j$(nproc --all) --force-sync

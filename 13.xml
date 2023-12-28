@@ -3,7 +3,7 @@
 
   <remote  name="realme-mt6771"
            fetch="https://github.com/realme-mt6771-devs"
-           revision="twelve"/>
+           revision="thirteen"/>
 
  <!-- Device Trees -->
   <project path="device/realme/RMX1831" name="android_device_realme_RMX1831" remote="realme-mt6771"/>
@@ -11,13 +11,12 @@
   <project path="device/realme/mt6771-common" name="android_device_realme_mt6771-common" remote="realme-mt6771"/>
  
  <!-- Kernel -->
-  <project path="kernel/realme/mt6771" name="android_kernel_realme_mt6771" remote="realme-mt6771"/>
+  <project path="kernel/realme/mt6771" name="realme-mt6771-devs/android_kernel_realme_mt6771" remote="github" revision="android-13.0"/>
 
  <!-- Vendor Trees -->
   <project path="vendor/realme/RMX1831" name="android_vendor_realme_RMX1831" remote="realme-mt6771"/>
   <project path="vendor/oppo/CPH1859" name="android_vendor_oppo_CPH1859" remote="realme-mt6771"/>
-  
- <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="StatiXOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="sc"/>
 
+<!-- Extras -->>
+  <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="Meghthedev/clang-r353983c1" remote="github"/>
 </manifest>
