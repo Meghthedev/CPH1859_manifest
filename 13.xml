@@ -19,6 +19,6 @@
 
 <!-- Extras -->>
   <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="Meghthedev/clang-r353983c1" remote="github"/>
-  <remove-project name="LineageOS/android_device_mediatek_sepolicy_vndr" />
+ <!-- <remove-project name="LineageOS/android_device_mediatek_sepolicy_vndr" /> -->
   <project path="device/mediatek/sepolicy_vndr" name="ArrowOS/android_device_mediatek_sepolicy_vndr" remote="github" />
 </manifest>
