@@ -6,7 +6,7 @@
            revision="thirteen"/>
 
  <!-- Device Trees -->
-  <project path="device/realme/RMX1831" name="Meghthedev/android_device_realme_RMX1831" remote="github" revision"thirteen"/>
+  <project path="device/realme/RMX1831" name="Meghthedev/android_device_realme_RMX1831" remote="github" revision="thirteen"/>
   <project path="device/oppo/CPH1859" name="android_device_oppo_CPH1859" remote="realme-mt6771"/>
   <project path="device/realme/mt6771-common" name="Meghthedev/android_device_realme_mt6771-common" remote="github" revision="thirteen"/>
  
